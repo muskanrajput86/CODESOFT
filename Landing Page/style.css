@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px 70px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.menu a:hover{
+    color: #e67e22;
+   
+}
+.main {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.4) 80%, #e67e22) , url(images/image.png);
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3rem;
+}
+.h-text span{
+    color: #e67e22;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 2px;
+}
+.heading h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 22px 0;
+}
+.heading h2 span{
+    color: #e67e22;
+    
+}
+.heading p {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.col{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 50px;
+}
+.col img{
+    width: 20vw;
+    cursor: pointer;
+}
+.div1 h3{
+    text-align: center;
+    color: #222f3e;
+}
+.last{
+    width: 100%;
+    height: 20vh;
+    background: #e67e22;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+}
+.content i{
+    font-size: 5rem;
+    color: yellow;
+}
+.content button{
+    font-size: 1rem;
+    border: 2px solid white;
+    background: #e67e22;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.text h3{
+    font-size: 2rem;
+    text-align: left;
+}
+.text p{
+    font-size: 1rem;
+    text-align: left;
+    max-width: 700px;
+}
+footer{
+    background: #1d2835;
+    color: white;
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
